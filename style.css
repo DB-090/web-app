@@ -4,13 +4,101 @@ body{
 
 /*
 =================================================
+Buttons
+=================================================
+*/
+
+.home
+{
+    background-color: #73594F;
+}
+
+.happy
+{
+    background-color: #8C8665;
+}
+
+.bored
+{
+    background-color: #657930;
+}
+
+.home a:hover
+{
+    background-color: #5d4840;
+}
+
+.buttons
+{
+    width: 300px;
+    height: 70px;
+    align-content: center;
+    align-self: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px #343240;
+}
+
+
+
+/*
+=================================================
 Text
 =================================================
 */
 
+hr {
+
+    margin: auto;
+    border-width: 1px;
+    color: #73594F;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.small
+{
+    width: 100px;
+    margin-top: 10px;
+}
+
 h1,
 h2,
-h3,
+h3
 {
     font-family: "Lexend";
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-weight: 900;
+    margin-top: 0%;
+}
+
+h2
+{
+    color: #F2E8DF;
+    margin-bottom: 20px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.htxt{
+    color: #343240;
+}
+
+.haptxt
+{
+    color: #8C8665;
+}
+
+.btxt
+{
+    color: #657930;
 }
