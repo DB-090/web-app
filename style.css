@@ -23,9 +23,29 @@ Buttons
     background-color: #657930;
 }
 
+.lonely
+{
+    background-color: #68739bff;
+}
+
+.sad
+{
+    background-color: #F2E8DF;
+}
+
+.angry
+{
+    background-color: #BE728D;
+}
+
 .home a:hover
 {
     background-color: #5d4840;
+}
+
+.frus
+{
+    background-color: #7057ad;
 }
 
 .buttons
@@ -59,8 +79,9 @@ hr {
 
 .small
 {
-    width: 100px;
-    margin-top: 10px;
+    width: 70px;
+    margin-top: 0px;
+    margin-bottom: 5px
 }
 
 h1,
@@ -76,6 +97,7 @@ h1
 {
     font-weight: 900;
     margin-top: 0%;
+    font-size: 50px;
 }
 
 h2
@@ -89,7 +111,8 @@ a
     text-decoration: none;
 }
 
-.htxt{
+.htxt
+{
     color: #343240;
 }
 
@@ -101,4 +124,24 @@ a
 .btxt
 {
     color: #657930;
+}
+
+.ltxt
+{
+    color: #F2E8DF;
+}
+
+.stxt
+{
+    color: #7c89b9ff;
+}
+
+.ftxt
+{
+    color: #574095;
+}
+
+.atxt
+{
+    color: #b16680;
 }
